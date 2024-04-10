@@ -17,9 +17,9 @@ def paso_iniciar_sesion():
         driver.implicitly_wait(10)
         driver.save_screenshot("screenshots/paso1_iniciar_sesion.png")
         username_field = driver.find_element(By.NAME, "userLoginId")
-        username_field.send_keys("Zoleabreu@gmail.com")
+        username_field.send_keys("correo de netflix, no la coloco aqui por terminos privados")
         password_field = driver.find_element(By.NAME, "password")
-        password_field.send_keys("esperanzayfe")
+        password_field.send_keys("contraseña de netflix, no la coloco aqui por terminos privados")
         password_field.submit()
         driver.save_screenshot("screenshots/paso1_iniciar_sesion_submit.png")
         return "Inicio de sesión completado correctamente."
